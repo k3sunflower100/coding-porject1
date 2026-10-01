@@ -1,0 +1,6 @@
+{
+	"appName": "LUCKY SIX",
+	"initialSets": 1,
+	"maxSets": 10,
+	"drawCountOptions": [1, 3, 5, 10]
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" fill="none">
+  <defs>
+    <radialGradient id="yellow" cx="35%" cy="25%" r="75%">
+      <stop stop-color="#FFE98B"/>
+      <stop offset="1" stop-color="#E6AC26"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="35%" cy="25%" r="75%">
+      <stop stop-color="#A1D4FF"/>
+      <stop offset="1" stop-color="#3982C7"/>
+    </radialGradient>
+    <radialGradient id="red" cx="35%" cy="25%" r="75%">
+      <stop stop-color="#FFAAA2"/>
+      <stop offset="1" stop-color="#D65051"/>
+    </radialGradient>
+    <radialGradient id="green" cx="35%" cy="25%" r="75%">
+      <stop stop-color="#A0F0BB"/>
+      <stop offset="1" stop-color="#3A9C65"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7"/>
+      <feOffset dy="8"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".3"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M35 175c34 43 127 68 216 17" stroke="#D5F36A" stroke-opacity=".22" stroke-width="1.2" stroke-dasharray="3 7"/>
+  <path d="M56 77c53-48 143-40 195 19" stroke="#F0F1E9" stroke-opacity=".14" stroke-width="1.2"/>
+  <g filter="url(#shadow)">
+    <circle cx="77" cy="151" r="39" fill="url(#blue)"/>
+    <circle cx="77" cy="151" r="32" stroke="#FFF" stroke-opacity=".28"/>
+    <ellipse cx="66" cy="138" rx="14" ry="7" fill="#FFF" fill-opacity=".22" transform="rotate(-32 66 138)"/>
+    <text x="77" y="158" fill="#15202A" font-family="Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle">17</text>
+
+    <circle cx="211" cy="157" r="35" fill="url(#green)"/>
+    <circle cx="211" cy="157" r="28" stroke="#FFF" stroke-opacity=".3"/>
+    <ellipse cx="201" cy="146" rx="12" ry="6" fill="#FFF" fill-opacity=".22" transform="rotate(-32 201 146)"/>
+    <text x="211" y="164" fill="#14251A" font-family="Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">42</text>
+
+    <circle cx="145" cy="104" r="57" fill="url(#red)"/>
+    <circle cx="145" cy="104" r="47" stroke="#FFF" stroke-opacity=".32"/>
+    <ellipse cx="130" cy="85" rx="19" ry="9" fill="#FFF" fill-opacity=".24" transform="rotate(-32 130 85)"/>
+    <text x="145" y="114" fill="#321819" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle">28</text>
+  </g>
+  <path d="m239 56 3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z" fill="#D5F36A"/>
+  <circle cx="51" cy="91" r="3" fill="#F4C542"/>
+  <circle cx="252" cy="207" r="2.5" fill="#D5F36A" fill-opacity=".75"/>
+</svg>
